@@ -8,3 +8,10 @@ Dans ce TP nous avons créer un micro-service qui permet la gestion des comptes,
 
 ![h2-console2](https://user-images.githubusercontent.com/101976300/163272664-dd9ff3c1-7790-4a39-bb72-1e6b2c37e014.PNG)
 
+Après nous avons passés à la création d'un RestController pour la couche web qui précise pour chaque path la méthode qui sera invoquée.
+
+1- Tester la méthode getComptes qui renvoie la liste des comptes au format JSON en utilisant un navigateur :
+
+![localhost_comptes](https://user-images.githubusercontent.com/101976300/163275020-d696f9b0-d6e6-42ee-b506-ac69182eccdd.PNG)
+
+
