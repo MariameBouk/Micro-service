@@ -78,6 +78,10 @@ On peut ajouter une méthode qui permet de renvoyer les comptes selon le type :
 
 Si on veut effectuer des opérations metiers par exemple un virement d'un compte vers un autre, pour cela nous aurons besoin de la couche metier :
 
+![virement_swagger](https://user-images.githubusercontent.com/101976300/163298186-a36213fb-3415-4c28-a04d-9e85c15123c6.PNG)
+![verification_virement](https://user-images.githubusercontent.com/101976300/163298214-c436da11-cb63-4618-ba0f-00b8c8d890f3.PNG)
+
+
 
 
 
