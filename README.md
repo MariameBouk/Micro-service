@@ -34,6 +34,36 @@ On peut également générer la documentation de notre micro-service en ajoutant
 
 ![documentation de WS swaguer](https://user-images.githubusercontent.com/101976300/163283576-44f3abca-8918-4c1f-8724-e84e622e7942.PNG)
 
+En utilisant cette documentation on aura plus besoin de connaitre la strecture des requettes par exemple dans postman, il suffit juste d'ajouter le lien de l'open api.
+
+![utiliser_docapi_pastman](https://user-images.githubusercontent.com/101976300/163284351-894cc350-8cc2-41a6-841d-e6da8f28c313.PNG)
+
+Aussi on la possibilité de tester nos méthodes en utilisant swagger :
+
+![teste avec swagger](https://user-images.githubusercontent.com/101976300/163287352-a8a26e63-13bb-4885-b3c4-d38dc6f7a9f1.PNG)
+
+1- Pour lister les comptes avec swagger :
+
+![get_comptes_swagger1](https://user-images.githubusercontent.com/101976300/163287411-f22d7bd1-a3d1-4f10-9ce4-fefaf8742234.PNG)
+
+Résultat :
+
+![get_comptes_swagger](https://user-images.githubusercontent.com/101976300/163287473-8125d8ad-8deb-479a-873b-a95de882a066.PNG)
+
+2- Pour modifier un compte avec swagger :
+
+![update_swagger1](https://user-images.githubusercontent.com/101976300/163287589-38e4fab5-5507-4712-bf82-d1c41df8bafd.PNG)
+
+Résultat :
+
+![update_swagger_resultat](https://user-images.githubusercontent.com/101976300/163287696-5daa181c-32cf-4c0c-9991-8606e3da2f05.PNG)
+
+Si on veut créer un micro-service qui permet juste d'ajouter, supprimer, modifier et consuler c'est à dire les opérations classiques on aura pas besoin d'établir un  RestController, il suffit juste d'utiliser un module Spring Data Rest :
+
+![teste_avec_spring data rest](https://user-images.githubusercontent.com/101976300/163288851-4ff656d9-7f1e-4d65-b16e-981dc43545c3.PNG)
+
+
+
 
 
 
