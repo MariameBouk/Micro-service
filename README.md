@@ -62,6 +62,22 @@ Si on veut créer un micro-service qui permet juste d'ajouter, supprimer, modifi
 
 ![teste_avec_spring data rest](https://user-images.githubusercontent.com/101976300/163288851-4ff656d9-7f1e-4d65-b16e-981dc43545c3.PNG)
 
+Spring Data Rest nous offre pas mal de possibilités parmi les quels on trouve les projections qui nous permet de spécifier les attributs qu'on veut :
+
+=> Pour la pojection 1 on souhaite afficher le code et le solde de compte et ignorer le type et la date de création de compte :
+
+![projection_p1_solde_code](https://user-images.githubusercontent.com/101976300/163289472-83c3eb56-b59d-4e25-b0cb-c7257d1c0e33.PNG)
+
+=> Pour la pojection 2 on souhaite afficher le code et le type de compte et ignorer le solde et la date de création de compte :
+
+![projection_p2_type_code](https://user-images.githubusercontent.com/101976300/163289677-da892c3a-2a62-4dae-9ef7-c936782857f0.PNG)
+
+On peut ajouter une méthode qui permet de renvoyer les comptes selon le type :
+
+![methode_byType](https://user-images.githubusercontent.com/101976300/163291001-9e3b9a67-5459-4c86-bb9a-27b64851c3bb.PNG)
+
+Si on veut effectuer des opérations metiers par exemple un virement d'un compte vers un autre, pour cela nous aurons besoin de la couche metier :
+
 
 
 
